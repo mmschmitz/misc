@@ -19,7 +19,9 @@ schedule_when <- "DAILY"
 
 ########################----
 
-myscript <- [FULL R SCRIPT PATH HERE]taskscheduler_create(
+myscript <- [FULL R SCRIPT PATH HERE]
+
+taskscheduler_create(
 
 taskname = basename(myscript),
 myscript,
